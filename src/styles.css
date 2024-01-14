@@ -5,6 +5,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #069888;
+  color: #347474;
 }
 section {
   max-width: 100%;
@@ -13,6 +14,10 @@ section {
 }
 section.secondary {
   background-color: #cbfff5;
+  color: #347474;
+}
+a {
+  color: #347474;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
@@ -52,13 +57,14 @@ header a {
   text-transform: uppercase;
   background-color: white;
   text-decoration: none;
-  color: #063121;
+  color: #347474;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
 }
 main {
   background-color: white;
+  color: #347474;
 }
 main h2 {
   font-family: "PT Sans Narrow", sans-serif;
@@ -66,7 +72,7 @@ main h2 {
   font-weight: lighter;
   line-height: 1.5;
   margin: 30px 0;
-  color: #063121;
+  color: #347474;
 }
 main h3 {
   font-family: "PT Sans Narrow", sans-serif;
@@ -75,7 +81,7 @@ main h3 {
   line-height: 1.5;
   letter-spacing: 3px;
   margin: 0;
-  color: #063121;
+  color: #347474;
 }
 main h4 {
   font-size: 30px;
@@ -93,12 +99,12 @@ main h5 {
 }
 main p {
   font-size: 18px;
-  color: #063121;
+  color: #347474;
   opacity: 0.7;
 }
 main li {
   font-size: 12px;
-  color: #063121;
+  color: #347474;
 }
 
 footer {
@@ -135,9 +141,10 @@ footer li {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  color: #347474;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .grid {
@@ -146,6 +153,9 @@ footer li {
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+.grid-2-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr;
 }
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
@@ -173,7 +183,7 @@ footer li {
 .btn {
   display: block;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
@@ -182,6 +192,17 @@ footer li {
   padding: 16px;
   background-color: #069888;
   text-decoration: none;
+}
+
+.embed-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 6px;
+  border: 7px solid #069888;
+}
+.embed-map {
+  width: 100%;
+  aspect-ratio: 21/9;
 }
 @media (max-width: 960px) {
   header {
