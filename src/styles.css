@@ -87,7 +87,7 @@ main h4 {
 main h5 {
   font-size: 22px;
   font-weight: 300;
-  margin: 0;
+  margin: 20px 0;
   line-height: 1;
   color: #069888;
 }
@@ -100,13 +100,7 @@ main li {
   font-size: 12px;
   color: #063121;
 }
-ul {
-  padding: 0;
-}
-li {
-  margin: 0;
-  padding: 0;
-}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -130,6 +124,13 @@ footer li {
 footer a {
   color: white;
   opacity: 0.5;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  margin: 0;
+  padding: 0;
 }
 .container {
   max-width: 1400px;
