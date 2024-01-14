@@ -1,0 +1,9 @@
+/* font-family: 'Kranky', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+h1 {
+  font-family: "Kranky", serif;
+  font-size: 66px;
+  color: magenta;
+}
