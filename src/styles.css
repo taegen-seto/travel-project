@@ -1,10 +1,10 @@
-/* font-family: 'Kranky', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'PT Sans Narrow', sans-serif; */
-
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #069888;
+  background: linear-gradient(
+    109.6deg,
+    rgb(5, 85, 84) 11.2%,
+    rgb(64, 224, 208) 91.1%
+  );
   color: #347474;
 }
 section {
@@ -106,10 +106,9 @@ main li {
   font-size: 12px;
   color: #347474;
 }
-
 footer {
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("../images/footer.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,7 +175,6 @@ footer li {
 .card-body p {
   font-size: 14px;
 }
-
 .card-footer {
   padding: 20px;
 }
@@ -193,7 +191,6 @@ footer li {
   background-color: #069888;
   text-decoration: none;
 }
-
 .embed-video {
   width: 100%;
   aspect-ratio: 16/9;
