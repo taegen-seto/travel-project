@@ -262,4 +262,7 @@ footer li {
     font-size: 11px;
     padding: 15px 5px;
   }
+  .secondary-social {
+    padding: 0;
+  }
 }
