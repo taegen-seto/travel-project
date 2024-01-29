@@ -204,6 +204,20 @@ footer li {
 .instagram-embeds {
   margin: 30px 0;
 }
+.back-to-top {
+  display: block;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #069888;
+  text-decoration: none;
+  border-radius: 27px;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -264,5 +278,19 @@ footer li {
   }
   .secondary-social {
     padding: 0;
+  }
+  .back-to-top {
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #069888;
+    text-decoration: none;
+    border-radius: 27px;
   }
 }
